@@ -1,11 +1,12 @@
 import './App.css';
 // import face from "./images/portfolio_portait.png"
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       {/* < img src={face}></img> */}
+       <NavBar/>{/* < img src={face}></img> */}
       </header>
     </div>
   );
