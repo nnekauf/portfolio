@@ -151,6 +151,19 @@
   background-color: rgb(0, 185, 252);
 }
 
+.projects{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%
+}
+
+.projects h1{
+  font-family: Bangers;
+  font-size: 3em;
+  text-align: center;
+}
+
+
 .App-link {
   color: #61dafb;
 }
