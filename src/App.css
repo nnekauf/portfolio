@@ -113,6 +113,10 @@
 .aboutName:hover{
   color: rgb(0, 185, 252);
 }
+.faceOverlay{
+  z-index: 2;
+  background-color: rgb(0, 185, 252);
+}
 .aboutLink{
   text-decoration: none;
   color:rgb(0, 0, 0);

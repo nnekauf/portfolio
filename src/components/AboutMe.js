@@ -6,6 +6,7 @@ const AboutMe = () => {
 
     return (
         <div className = "about">
+            <div className= "faceOverlay"> overlay</div>
             <div className= "face" >
                 < img src={face} alt="Portrait of Nneka" 
                     style={{width: "70%", height: "auto", 
