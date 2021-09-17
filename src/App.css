@@ -82,7 +82,7 @@
   left: 45%;
   background-color: #eeeeee;
   max-width: 50%;
-  max-width: auto;
+  max-height: auto;
   text-align: left;
 }
   /* font-weight: lighter; */
@@ -149,6 +149,62 @@
 }
 .NavBar:hover{
   background-color: rgb(0, 185, 252);
+}
+
+.projects{
+  margin: 5%;
+  
+}
+.projectsVideo{
+  max-width: 45%;
+  left: 0%;
+}
+.projectsVideo:hover{
+  background-color: rgb(154, 228, 255);
+  border-radius: 10%;
+  padding: 6%;
+  
+}
+.projectText{
+  position: absolute;
+  max-width: 45%;
+  right: 5%;
+  padding-top:6%;
+  font-family: OpenSans;
+  text-transform: uppercase;
+  color: rgb(0, 185, 252);
+  font-size: 1.1em;
+}
+.projectText:hover{
+  background-color: rgb(0, 185, 252);
+  border-radius: 10%;
+  padding-bottom: 6%;
+  color: white
+}
+.projects h1{
+  font-family: Bangers;
+  font-size: 5em;
+  text-align: center;
+  color: #61dafb;
+  padding-bottom: 0;
+}
+
+.projects h1:hover{
+  color:rgb(0, 185, 252)
+}
+.projectText h2{
+  font-family: Bangers;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  text-align: center;
+  
+}
+
+.projectText h3{
+  
+ 
+  text-align: center;
 }
 
 .App-link {
