@@ -12,7 +12,8 @@ const Projects = () => {
             <br/>
             <div style ={{display: "flex"}}>
 
-                <video className="projectsVideo" width="480" height="480" 
+                <video className="projectsVideo" alt="Video of HoopTown Demo"
+                    width="480" height="480" 
                     onMouseOver={event => event.target.play()}
                     onMouseOut={event => event.target.pause()}
                     src={HoopTown}>
@@ -33,7 +34,8 @@ const Projects = () => {
             </div>
             
             <div style ={{display: "flex"}}>
-                <video className="projectsVideo" width="480" height="480" 
+                <video className="projectsVideo" alt="Video of Nest Demo"
+                    width="480" height="480" 
                     onMouseOver={event => event.target.play()}
                     onMouseOut={event => event.target.pause()}
                     src={Nest}>
@@ -53,7 +55,8 @@ const Projects = () => {
             
             <div style ={{display: "flex"}}>
 
-                <video className="projectsVideo" width="480" height="480" 
+                <video className="projectsVideo" alt="Video of My NBA Demo"
+                    width="480" height="480" 
                     onMouseOver={event => event.target.play()}
                     onMouseOut={event => event.target.pause()}
                     src={MyNba}>

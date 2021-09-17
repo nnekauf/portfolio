@@ -108,7 +108,8 @@
   text-align: center;
   font-family: Bangers;
   letter-spacing: 2p; 
-  font-size: 4em
+  font-size: 4em;
+  color: #61dafb;
 }
 .aboutName:hover{
   color: rgb(0, 185, 252);
