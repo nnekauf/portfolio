@@ -9,7 +9,7 @@ const Home = () => {
         <div className = "homePage">
             <text className="mainTitle"> Home Page</text> <br/>
                 <>
-                    <Link className = "homeButton"  to="/about"> about</Link> 
+                    <Link className = "homeButton"  to="/"> about</Link> 
                     <br/> <br/>
                     <Link className = "homeButton"  to="/projects">projects</Link> 
                     <br/> <br/>
