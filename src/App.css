@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Bangers';
+  src: local('Bangers'), url(./fonts/Bangers-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'), 
+  url(./fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+  font-weight: regular;
+}
 .App {
   text-align: center;
 }
