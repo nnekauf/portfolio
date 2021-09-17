@@ -14,7 +14,8 @@ function App() {
     <div className="App">
       <header className="App-header">
        <NavBar/>{/* < img src={face}></img> */}
-       <Switch>
+      </header>
+      <Switch>
            {/* <Route exact path='/'component={Home}/> */}
            <Route exact path='/' component={AboutMe}/>
            <Route exact path='/projects' component={Projects}/>
@@ -23,8 +24,6 @@ function App() {
            
        </Switch>
 
-       
-      </header>
     </div>
   );
 }
