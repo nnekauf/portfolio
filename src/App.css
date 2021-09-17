@@ -82,7 +82,7 @@
   left: 45%;
   background-color: #eeeeee;
   max-width: 50%;
-  max-width: auto;
+  max-height: auto;
   text-align: left;
 }
   /* font-weight: lighter; */
@@ -152,11 +152,20 @@
 }
 
 .projects{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%
+  margin: 5%;
+  
 }
-
+.projectsVideo{
+  max-width: 45%;
+  left: 0%;
+  
+}
+.projectText{
+  position: absolute;
+  max-width: 45%;
+  right: 0%;
+  padding-top:6%;
+}
 .projects h1{
   font-family: Bangers;
   font-size: 3em;
