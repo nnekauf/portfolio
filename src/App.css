@@ -116,6 +116,25 @@
 .faceOverlay{
   z-index: 2;
   background-color: rgb(0, 185, 252);
+  border-radius: 40%;
+  width: 40%; 
+  height: 80%; 
+  justify-content: left;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  opacity: 0%;
+  /* padding-right: 10%, */
+  /* object-fit: cover;
+   */
+}
+
+.faceOverlay:hover{
+  
+  opacity: 20%;
+  /* padding-right: 10%, */
+  /* object-fit: cover;
+   */
 }
 .aboutLink{
   text-decoration: none;

@@ -6,12 +6,12 @@ const AboutMe = () => {
 
     return (
         <div className = "about">
-            <div className= "faceOverlay"> overlay</div>
+            <div className= "faceOverlay"> </div>
             <div className= "face" >
                 < img src={face} alt="Portrait of Nneka" 
                     style={{width: "70%", height: "auto", 
                     justifyContent: "left", position: "absolute",
-                    objectFit: "cover", left: "-10%",                  
+                    objectFit: "cover", left: "-8%",                  
                     zIndex: "1"}}>
                 </img>                   
             </div>
