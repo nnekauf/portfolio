@@ -42,7 +42,7 @@ const AboutMe = () => {
                     due to <a className="aboutLink"href = "https://medium.com/the-interlude/so-were-in-a-panini-now-12ce989fae16">"Panini-19", </a>
                     I decided to use my free time to develop new skills, reaching new heights within my professional journey. 
         
-                    <b> This is when I discoved Software Engineering.</b>
+                    <b> This is when I discovered Software Engineering.</b>
                     <br/>
                     I graduated from a Software Engineering Bootcamp and began my career,
                 
