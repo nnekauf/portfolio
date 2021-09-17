@@ -58,9 +58,9 @@
 
 .navLink:hover {
   text-decoration-line: underline;
-  color:gray;
+  color:white;
   font-weight: bold;
-
+  
 }
 #construction{
   max-width: 50%;
@@ -71,19 +71,86 @@
 }
 
 
-#aboutText{
-  border-radius: 10%;
+.aboutText{
+  border-radius: 5%;
   line-height: 30px;
   /* font-size: 1.5em; */
+  z-index: 2;
   padding: 2%;
+  position: relative;
   text-transform: uppercase;
+  left: 45%;
+  background-color: #eeeeee;
+  max-width: 50%;
+  max-width: auto;
+  text-align: left;
+}
   /* font-weight: lighter; */
   /* font-family: OpenSans; */
+  /* <div id= aboutText 
+  
 }
 
-#aboutText.h1{
-  font-family: Bangers;
+/* .face:hover {
+  filter:blur(10%)
+} */
+.aboutText:hover{
+  background-color: rgb(0, 185, 252);
+  color: white;
+  
 }
+/* <div id="aboutName" style={{zIndex: "2", position: "relative", 
+  textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */
+
+.aboutName{
+  z-index: 2; 
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2p; 
+  font-size: 4em
+}
+.aboutName:hover{
+  color: rgb(0, 185, 252);
+}
+.faceOverlay{
+  z-index: 2;
+  background-color: rgb(0, 185, 252);
+  border-radius: 40%;
+  width: 40%; 
+  height: 80%; 
+  justify-content: left;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  opacity: 0%;
+  /* padding-right: 10%, */
+  /* object-fit: cover;
+   */
+}
+
+.faceOverlay:hover{
+  
+  opacity: 20%;
+  /* padding-right: 10%, */
+  /* object-fit: cover;
+   */
+}
+.aboutLink{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  
+  font-weight: bold;
+}
+.aboutLink:hover{
+  
+  color:rgb(255, 255, 255);
+  
+}
+.NavBar:hover{
+  background-color: rgb(0, 185, 252);
+}
+
 .App-link {
   color: #61dafb;
 }
