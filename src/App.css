@@ -220,8 +220,14 @@
   background-color: white;
   margin: 0 auto;
   max-width: 50%;
+  border-radius: 3%;
+  /* padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%; */
+  font-family: OpenSans;
   
-  
+  text-transform: uppercase;
 }
 .App-link {
   color: #61dafb;
