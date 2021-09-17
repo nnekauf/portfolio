@@ -17,8 +17,8 @@ const AboutMe = () => {
                    
             </div>
             <div id="aboutName" style={{zIndex: "2", textAlign: "center", position: "relative", 
-                textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px" }}> Nneka ("Neck-Uh")</div>
-            
+                textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}> Nneka ("Neck-Uh")</div>
+            <br/> <br/>
             <div id= "aboutText" 
                 style={{zIndex: "2", left: "45%", position: "relative", 
                 backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "center" }}>
