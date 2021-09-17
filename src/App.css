@@ -99,6 +99,20 @@
   color: white;
   
 }
+/* <div id="aboutName" style={{zIndex: "2", position: "relative", 
+  textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */
+
+.aboutName{
+  z-index: 2; 
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2p; 
+  font-size: 4em
+}
+.aboutName:hover{
+  color: rgb(0, 185, 252);
+}
 .aboutLink{
   text-decoration: none;
   color:rgb(0, 0, 0);

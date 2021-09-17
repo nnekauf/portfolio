@@ -15,14 +15,13 @@ const AboutMe = () => {
                 </img>                   
             </div>
 
-            <div id="aboutName" style={{zIndex: "2", position: "relative", 
-                textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}> 
+            {/* <div id="aboutName" style={{zIndex: "2", position: "relative", 
+                textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */}
+            <div className="aboutName">
                 Nneka ("Neck-Uh")</div>
             <br/> <br/>
 
-            {/* <div id= "aboutText" 
-                style={{zIndex: "2", left: "45%", position: "relative", 
-                backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "left" }}> */}
+            
             <div className="aboutText">
                 <h1 style={{fontFamily: "Bangers", letterSpacing: "2px", textAlign: "center" }}> 
                 My Journey</h1>
