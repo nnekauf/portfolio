@@ -11,7 +11,7 @@ const AboutMe = () => {
                 < img src={face} alt="Portrait of Nneka" 
                     style={{width: "70%", height: "auto", 
                     justifyContent: "left", position: "absolute",
-                    objectFit: "cover", objectPosition: "-150px",                    
+                    objectFit: "cover", left: "-10%",                  
                     zIndex: "1"}}>
                 </img>
             </div>
@@ -22,7 +22,7 @@ const AboutMe = () => {
                 backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "center" }}>
                 <h1 > Please Excuse our Appearance</h1>
                 <div>This website is currently under construction</div>
-                <img src={construction} alt= "Under Construction GIF"></img> 
+                <img id="construction" src={construction} alt= "Under Construction GIF"></img> 
                 <div>No worries, we are working quickly to deliver an amazing website to you. 
                     Please check back soon.
                 </div>

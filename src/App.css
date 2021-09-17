@@ -62,7 +62,10 @@
   font-weight: bold;
 
 }
-
+#construction{
+  max-width: 50%;
+  max-height: auto;
+}
 .about{
   display: flexbox;
 }
