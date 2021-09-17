@@ -1,5 +1,5 @@
 import './App.css';
-// import face from "./images/portfolio_portait.png"
+
 import NavBar from "./components/NavBar"
 import AboutMe from "./components/AboutMe"
 import Contact from "./components/Contact"
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <NavBar/>{/* < img src={face}></img> */}
+       <NavBar/>
       </header>
       <Switch>
            {/* <Route exact path='/'component={Home}/> */}

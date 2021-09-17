@@ -1,13 +1,13 @@
 import React from 'react';
 import construction from "../images/under_construction_giphy.webp"
 import { Link } from 'react-router-dom'
-
+import face from "../images/portfolio_portait.png"
 
 const AboutMe = () => {
 
     return (
         <div className = "about">
-        
+            <div className= "face">< img src={face}></img></div>
                 <>
                     <Link className = "homeButton"  to="/projects">projects</Link> 
                     <br/> <br/>
