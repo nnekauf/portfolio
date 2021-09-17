@@ -14,25 +14,23 @@ const AboutMe = () => {
                     objectFit: "cover", left: "-10%",                  
                     zIndex: "1"}}>
                 </img>
+                   
             </div>
-            <div id="aboutName" style={{zIndex: "2", textAlign: "left", position: "absolute", 
-                textAlign: "center" }}> Nneka ("Neck-Uh")</div>
+            <div id="aboutName" style={{zIndex: "2", textAlign: "center", position: "relative", 
+                textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px" }}> Nneka ("Neck-Uh")</div>
             
             <div id= "aboutText" 
-            style={{zIndex: "2", left: "45%", position: "relative", 
+                style={{zIndex: "2", left: "45%", position: "relative", 
                 backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "center" }}>
-                <h1 > My Journey</h1>
+                <h1 style={{fontFamily: "Bangers", letterSpacing: "2px"}}> My Journey</h1>
                 <div><b>TL;DR: </b> I am Software Engineer with a background in Video Editing and Technical Support. </div>
                     <br/>
-                <div>I've always been fascinated by technology since young. 
-                    <br/>
-                    During my teenage years, I developed a love for Film and Video and began
-                    recording and editing footage for the extra-curricular activities I was a part of.
-                    <br/>
-                    I soon got my start professionally in the tech field as a Video Editor for an up-and-coming TV network.
+                <div>My fascinated with technology emerged through my love for Film and Video.
+                    I recorded and edited footage for the extra-curricular activities I was a part of 
+                    until I got my start professionally in the tech field as a Video Editor for an up-and-coming TV network.
                     <br/>
                 </div>
-                <h2>A Software Engineer Was Born</h2>
+                <h2 style={{fontFamily: "Bangers", letterSpacing: "2px"}}>A Software Engineer Was Born</h2>
                 <div>
                     Amidst the 
                     <a href = "https://www.nytimes.com/2021/03/19/style/pandemic-nicknames.html">"Panoramic"</a>
@@ -45,18 +43,16 @@ const AboutMe = () => {
                     <br/>
                     <b>never looking back!</b>
                 </div>
-                <h2>Moving Forward</h2>
+
+                <h2 style={{fontFamily: "Bangers", letterSpacing: "2px"}}>Moving Forward</h2>
                 <div>
                     Along my <Link className = "homeButton"  to="/resume">Journey</Link>, 
                     I've created (and still maintain) personal <Link className = "homeButton"  to="/projects">projects </Link> 
                     that you can explore!
                     <br/>
                     Alrighty, my time here is up. However, you can always find me <Link className = "homeButton"  to="/contact">here</Link>!
-                 
-                <br/> <br/>
-                
-                <br/> <br/>
-                
+                    <br/> <br/>
+                    <br/> <br/>
                 </div>
             </div>
                 

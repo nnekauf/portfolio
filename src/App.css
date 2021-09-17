@@ -70,6 +70,20 @@
   display: flexbox;
 }
 
+
+#aboutText{
+  border-radius: 10%;
+  line-height: 30px;
+  /* font-size: 1.5em; */
+  padding: 2%;
+  text-transform: uppercase;
+  /* font-weight: lighter; */
+  /* font-family: OpenSans; */
+}
+
+#aboutText.h1{
+  font-family: Bangers;
+}
 .App-link {
   color: #61dafb;
 }
