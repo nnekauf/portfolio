@@ -208,6 +208,18 @@
   text-align: center;
 }
 
+.resume{
+  background-color: rgb(0, 185, 252);
+  display: flexbox;
+  
+}
+.resumeCard{
+  background-color: white;
+  margin: 0 auto;
+  max-width: 50%;
+
+  
+}
 .App-link {
   color: #61dafb;
 }
