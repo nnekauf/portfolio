@@ -43,14 +43,23 @@
   position: sticky;
   top: 0%;
   padding: 2%;
-  display: flexbox ;
+  display: flexbox;
   justify-content: center;
   margin-bottom: 2%;
   text-transform: uppercase;
 }
 
+.navLink{
+  text-decoration: none;
+  color: black
+}
 
+.navLink:hover {
+  text-decoration-line: underline;
+  color:gray;
+  font-weight: bold;
 
+}
 
 
 .App-link {
