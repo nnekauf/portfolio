@@ -19,8 +19,10 @@ const Resume = () => {
             
             <div className="resumeCard">
                 <h1>Experience</h1>
-                    <h2>A1 Allied Health Training Institute</h2>Camden, NJ
-                    <h3>Technical Support Specialist, Office Assistant</h3>2020 - Present
+                    <h2>A1 Allied Health Training Institute</h2>
+                    Camden, NJ
+                    <br/>2020 - Present
+                    <h3>Technical Support Specialist, Office Assistant</h3>
                     <ul>
                         <li>Trained faculty, staff, and students on existing and newly implemented software.</li>  
                         <li>Performed troubleshooting over the phone, email, video chat, and in person to identify and resolve issues.</li>
@@ -30,8 +32,10 @@ const Resume = () => {
                     </ul>
                     
 
-                    <h2>Universal Living Faith Network</h2>Brooklyn, NY
-                    <h3>Production Assistant, Video Editor</h3>2019 - 2020
+                    <h2>Universal Living Faith Network</h2>
+                    Brooklyn, NY
+                    <br/>2019 - 2020
+                    <h3>Production Assistant, Video Editor</h3>
                     <ul>
                                 <li>Developed storyboards and scripts for two live programs that aired daily.</li>
                     <li>Created multiple 60 second segments that were aired on BET. </li>
@@ -44,8 +48,11 @@ const Resume = () => {
 
             <div className="resumeCard">
                 <h1>Education</h1>
-                <h2>Flatiron School</h2> 	New York, NY
-                    Full Stack Web Development, Ruby on Rails and JavaScript program 	01/2021 - 06/2021
+                <h2>Flatiron School</h2>
+                New York, NY
+                <br/>01/2021 - 06/2021
+                <br/>
+                    Full Stack Web Development, Ruby on Rails and JavaScript program 	
 
                     <h2>Relevant Coursework:</h2>  
                     <b>Introduction to Multimedia: </b>Built interactive websites using HTML and CSS 
