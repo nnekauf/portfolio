@@ -71,20 +71,33 @@
 }
 
 
-#aboutText{
+.aboutText{
   border-radius: 10%;
   line-height: 30px;
   /* font-size: 1.5em; */
+  z-index: 2;
   padding: 2%;
+  position: relative;
   text-transform: uppercase;
+  left: 45%;
+  background-color: #eeeeee;
+  max-width: 50%;
+  max-width: auto;
+  text-align: left;
+}
   /* font-weight: lighter; */
   /* font-family: OpenSans; */
+  /* <div id= aboutText 
+  
 }
 
 /* .face:hover {
   filter:blur(10%)
 } */
-
+.aboutText:hover{
+  background-color: rgb(252, 0, 130);
+  color: white;
+}
 .NavBar:hover{
   background-color: rgb(252, 0, 130);
 }

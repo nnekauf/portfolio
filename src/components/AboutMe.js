@@ -20,10 +20,10 @@ const AboutMe = () => {
                 Nneka ("Neck-Uh")</div>
             <br/> <br/>
 
-            <div id= "aboutText" 
+            {/* <div id= "aboutText" 
                 style={{zIndex: "2", left: "45%", position: "relative", 
-                backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "left" }}>
-
+                backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "left" }}> */}
+            <div className="aboutText">
                 <h1 style={{fontFamily: "Bangers", letterSpacing: "2px", textAlign: "center" }}> 
                 My Journey</h1>
                 <div><b>TL;DR: </b> I am Software Engineer with a background in Video Editing and Technical Support. </div>
