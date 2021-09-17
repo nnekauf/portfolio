@@ -42,11 +42,18 @@ const Resume = () => {
             </div>
 
             <div className="resumeCard">
+                <h1>Education</h1>
+                <h2>Flatiron School</h2> 	New York, NY
+                    Full Stack Web Development, Ruby on Rails and JavaScript program 	01/2021 - 06/2021
+
+                    <h2>Relevant Coursework:</h2>  
+                    <b>Introduction to Multimedia: </b>Built interactive websites using HTML and CSS 
+                    at <b>The City University of New York</b>.
 
             </div>
 
             <div className="resumeCard">
-                <Link className = "navLink"  to="/projects"> Projects</Link>
+                <h1><Link className = "navLink"  to="/projects"> Projects</Link></h1>
             </div>
 
         </div>
