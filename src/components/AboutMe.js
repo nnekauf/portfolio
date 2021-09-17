@@ -38,8 +38,8 @@ const AboutMe = () => {
                     A Software Engineer Was Born</h2>
                 <div>
                     Amidst the 
-                    <a href = "https://www.nytimes.com/2021/03/19/style/pandemic-nicknames.html">"Panoramic"</a>
-                    due to <a href = "https://medium.com/the-interlude/so-were-in-a-panini-now-12ce989fae16">"Panini-19", </a>
+                    <a className="aboutLink" href = "https://www.nytimes.com/2021/03/19/style/pandemic-nicknames.html">"Panoramic"</a>
+                    due to <a className="aboutLink"href = "https://medium.com/the-interlude/so-were-in-a-panini-now-12ce989fae16">"Panini-19", </a>
                     I decided to use my free time to develop new skills, reaching new heights within my professional journey. 
         
                     <b> This is when I discoved Software Engineering.</b>
@@ -51,11 +51,11 @@ const AboutMe = () => {
 
                 <h2 style={{fontFamily: "Bangers", letterSpacing: "2px", textAlign: "center" }}>Moving Forward</h2>
                 <div>
-                    Along my <Link className = "homeButton"  to="/resume">Journey</Link>, 
-                    I've created (and still maintain) personal <Link className = "homeButton"  to="/projects">projects </Link> 
+                    Along my <Link className="aboutLink"  to="/resume">Journey</Link>, 
+                    I've created (and still maintain) personal <Link className="aboutLink"  to="/projects">projects </Link> 
                     that you can explore!
                     <br/>
-                    Alrighty, my time here is up. However, you can always find me <Link className = "homeButton"  to="/contact">here</Link>!
+                    Alrighty, my time here is up. However, you can always find me <Link className="aboutLink"  to="/contact">here</Link>!
                     <br/> <br/>
                     <br/> <br/>
                 </div>
