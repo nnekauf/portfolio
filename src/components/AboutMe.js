@@ -18,7 +18,8 @@ const AboutMe = () => {
                 
             
             <div id= "aboutText" 
-            style={{zIndex: "2", left: "50%", position: "relative"}}>
+            style={{zIndex: "2", left: "45%", position: "relative", 
+                backgroundColor: "#eeeeee", maxWidth: "50%", maxHeight: "auto", textAlign: "center" }}>
                 <h1 > Please Excuse our Appearance</h1>
                 <div>This website is currently under construction</div>
                 <img src={construction} alt= "Under Construction GIF"></img> 
