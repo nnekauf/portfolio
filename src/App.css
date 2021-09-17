@@ -58,9 +58,9 @@
 
 .navLink:hover {
   text-decoration-line: underline;
-  color:gray;
+  color:white;
   font-weight: bold;
-
+  
 }
 #construction{
   max-width: 50%;
@@ -81,9 +81,14 @@
   /* font-family: OpenSans; */
 }
 
-#aboutText.h1{
-  font-family: Bangers;
+/* .face:hover {
+  filter:blur(10%)
+} */
+
+.NavBar:hover{
+  background-color: rgb(252, 0, 130);
 }
+
 .App-link {
   color: #61dafb;
 }
