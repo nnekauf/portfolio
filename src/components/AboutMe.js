@@ -1,5 +1,4 @@
 import React from 'react';
-import construction from "../images/under_construction_giphy.webp"
 import { Link } from 'react-router-dom'
 import face from "../images/portfolio_portait.png"
 
@@ -16,7 +15,7 @@ const AboutMe = () => {
                 </img>
                    
             </div>
-            <div id="aboutName" style={{zIndex: "2", textAlign: "center", position: "relative", 
+            <div id="aboutName" style={{zIndex: "2", position: "relative", 
                 textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}> Nneka ("Neck-Uh")</div>
             <br/> <br/>
             <div id= "aboutText" 
