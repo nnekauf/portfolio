@@ -169,7 +169,9 @@
   background-color: rgb(154, 228, 255);
   border-radius: 10%;
   padding: 6%;
-  
+  width: 1920px;
+  height:auto;
+ 
 }
 .projectText{
   position: absolute;
