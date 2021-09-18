@@ -5,8 +5,9 @@ const NavBar = () => {
     return (
         <div className = "NavBar">
             
-            <div style={{fontFamily: "Bangers", fontSize: "2em"}}>
-                <Link className = "navLink" to="/"> Nneka | Software Engineer</Link>
+            <div style={{fontFamily: "Bangers", fontSize: "3em"}}>
+                <Link id= "nameTitle" className = "navLink" to="/"> 
+                Nneka | Software Engineer</Link>
             </div> 
             <div style={{fontFamily: "OpenSans", fontWeight: "lighter"}}> 
                 <Link className = "navLink"  to="/"> About Me</Link>
