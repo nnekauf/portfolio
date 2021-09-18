@@ -243,6 +243,15 @@
 .resumeCard h2{
   color: black
 }
+.resume #title{
+  font-family: Bangers;
+  letter-spacing: 2px; 
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+  top: 0%;
+  position: relative;
+}
 .resumeCard:hover{
   font-weight: bold;
   color: rgb(0, 185, 252)

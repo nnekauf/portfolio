@@ -7,7 +7,7 @@ const Resume = () => {
 
     return (
         <div className = "resume">
-            
+            <div id="title">Resume</div> <br/>
             <div className="resumeCard">
             <h1>Skills</h1>
             <h2>Programming Languages: </h2>Javascript, ES6, Ruby, HTML, CSS; 
