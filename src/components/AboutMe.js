@@ -29,8 +29,8 @@ const AboutMe = () => {
             <div className="aboutText">
                 <h1 style={{fontFamily: "Bangers", letterSpacing: "2px", textAlign: "center" }}> 
                 My Journey</h1>
-                <div><b>TL;DR: </b> I am Software Engineer with a background in Video Editing and Technical Support. </div>
-                    <br/>
+                {/* <div><b>TL;DR: </b> I am Software Engineer with a background in Video Editing and Technical Support. </div>
+                    <br/> */}
                 <div>My fascination with technology emerged through my love for Film and Video.
                     I got my start in the tech field as a Video Editor for an up-and-coming TV network.
                     <br/>
