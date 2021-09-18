@@ -50,12 +50,16 @@
   margin-bottom: 2%;
   text-transform: uppercase;
 }
-
+.NavBar #nameTitle{
+  color: rgb(0, 185, 252)
+}
 .navLink{
   text-decoration: none;
   color: black
 }
-
+.NavBar:hover{
+  background-color: rgb(154, 228, 255);
+}
 .navLink:hover {
   text-decoration-line: underline;
   color:white;
@@ -102,18 +106,7 @@
 /* <div id="aboutName" style={{zIndex: "2", position: "relative", 
   textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */
 
-.aboutName{
-  z-index: 2; 
-  position: relative;
-  text-align: center;
-  font-family: Bangers;
-  letter-spacing: 2p; 
-  font-size: 4em;
-  color: #61dafb;
-}
-.aboutName:hover{
-  color: rgb(0, 185, 252);
-}
+
 .faceOverlay{
   z-index: 2;
   background-color: rgb(0, 185, 252);
@@ -137,6 +130,20 @@
   /* object-fit: cover;
    */
 }
+.aboutName{
+  z-index: 2; 
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2p; 
+  font-size: 5em;
+  color: #61dafb;
+  
+}
+.aboutName:hover{
+  color: rgb(0, 185, 252);
+}
+
 .aboutLink{
   text-decoration: none;
   color:rgb(0, 0, 0);
@@ -148,9 +155,7 @@
   color:rgb(255, 255, 255);
   
 }
-.NavBar:hover{
-  background-color: rgb(0, 185, 252);
-}
+
 
 .projects{
   margin: 5%;
@@ -208,6 +213,58 @@
   text-align: center;
 }
 
+.resume{
+  background-color: rgb(0, 185, 252);
+  display: flexbox;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  
+}
+.resumeCard{
+  background-color: white;
+  margin: 0 auto;
+  max-width: 40%;
+  padding-bottom: 2%;
+  padding-right: 10%;
+  padding-left:10%;
+  /* 
+  
+  padding-top: 2%;
+  padding-bottom: 2%; */
+  font-family: OpenSans;
+  
+  text-transform: uppercase;
+}
+
+.resumeCard h1{
+  padding-top: 5%;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2px;
+  font-size: 3em;
+  color: rgb(0, 185, 252)
+}
+.resumeCard h2{
+  color: black
+}
+.resume #title{
+  font-family: Bangers;
+  letter-spacing: 2px; 
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+  top: 0%;
+  position: relative;
+}
+.resumeCard:hover{
+  font-weight: bold;
+  color: rgb(0, 185, 252)
+}
+
+.resumeCard:hover a{
+  color:rgb(0, 185, 252)
+}
 .App-link {
   color: #61dafb;
 }
