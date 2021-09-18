@@ -35,9 +35,9 @@ const AboutMe = () => {
                     I got my start in the tech field as a Video Editor for an up-and-coming TV network.
                     <br/>
                 </div>
-
+{/* 
                 <h2 style={{fontFamily: "Bangers", letterSpacing: "2px", textAlign: "center" }}>
-                    A Software Engineer Was Born</h2>
+                    A Software Engineer Was Born</h2> */}
                 <div>
                     During 2020 when the entire world took a pause, 
                     I decided to use my free time to develop new skills, reaching new heights within my professional journey. 
