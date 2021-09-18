@@ -265,6 +265,29 @@
 .resumeCard:hover a{
   color:rgb(0, 185, 252)
 }
+
+
+
+.contact{
+  background-color: rgb(0, 185, 252);
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;  
+  padding: 10%;
+  padding-bottom: 20%;
+  font-family: OpenSans;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact h1{
+  font-family: Bangers;
+  letter-spacing: 2px;
+}
+.contact:hover{
+  color: white;
+}
 .App-link {
   color: #61dafb;
 }
