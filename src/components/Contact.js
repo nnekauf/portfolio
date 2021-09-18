@@ -6,12 +6,11 @@ const Contact = () => {
 
     return (
         <div className = "contact">
-            <h1 > Please Excuse our Appearance</h1>
-                <div>This website is currently under construction</div>
-                <img id="construction" src={construction} alt= "Under Construction GIF"></img>  
-                <div>No worries, we are working quickly to deliver an amazing website to you. 
-                    Please check back soon.
-                </div>
+        
+            <h1>Email:</h1>
+            <h2>nneka.tech@gmail.com </h2>
+
+        
             
 
         </div>
