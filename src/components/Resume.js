@@ -61,7 +61,7 @@ const Resume = () => {
             </div>
 
             <div className="resumeCard">
-                <h1><Link className = "navLink"  to="/projects"> Projects</Link></h1>
+                <h1><Link className = "navLink"  to="/projects"> Click Here for Projects</Link></h1>
             </div>
 
         </div>

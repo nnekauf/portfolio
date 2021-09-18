@@ -248,7 +248,9 @@
   color: rgb(0, 185, 252)
 }
 
-
+.resumeCard:hover a{
+  color:rgb(0, 185, 252)
+}
 .App-link {
   color: #61dafb;
 }
