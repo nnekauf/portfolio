@@ -1,5 +1,4 @@
 import React from 'react';
-import construction from "../images/under_construction_giphy.webp"
 
 
 const Contact = () => {
