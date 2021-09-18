@@ -7,13 +7,13 @@ const NavBar = () => {
             
             <div style={{fontFamily: "Bangers", fontSize: "3em"}}>
                 <Link id= "nameTitle" className = "navLink" to="/"> 
-                Nneka | Software Engineer</Link>
+                Nneka  / Software Engineer</Link>
             </div> 
             <div style={{fontFamily: "OpenSans", fontWeight: "lighter"}}> 
-                <Link className = "navLink"  to="/"> About Me</Link>
-                <Link className = "navLink"  to="/projects"> Projects</Link>  
-                <Link className = "navLink"  to="/resume"> Resume</Link> 
-                <Link className = "navLink"  to="/contact"> Contact</Link>
+                |<Link className = "navLink"  to="/"> About Me</Link> |
+                <Link className = "navLink"  to="/projects"> Projects</Link> |
+                <Link className = "navLink"  to="/resume"> Resume</Link> |
+                <Link className = "navLink"  to="/contact"> Contact</Link> |
                 
             </div>
         </div>

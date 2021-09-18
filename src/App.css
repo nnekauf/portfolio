@@ -55,7 +55,8 @@
 }
 .navLink{
   text-decoration: none;
-  color: black
+  color: black;
+  letter-spacing: 2px;
 }
 .NavBar:hover{
   background-color: rgb(154, 228, 255);
