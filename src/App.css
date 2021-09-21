@@ -273,7 +273,7 @@
   text-transform: uppercase;
 }
 
-.resumeCard h1{
+.resumeCard h2{
   padding-top: 5%;
   text-align: center;
   font-family: Bangers;
@@ -281,7 +281,7 @@
   font-size: 3em;
   color: #00009f
 }
-.resumeCard h2{
+.resumeCard h3{
   color: black
 }
 .resume #title{

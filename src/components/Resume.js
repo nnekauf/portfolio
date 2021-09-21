@@ -7,22 +7,22 @@ const Resume = () => {
 
     return (
         <div className = "resume">
-            <div id="title">Resume</div> <br/>
+            <h1 id="title">Resume</h1> <br/>
             <div className="resumeCard">
-            <h1>Skills</h1>
-            <h2>Programming Languages: </h2>Javascript, ES6, Ruby, HTML, CSS; 
-            <h2>Frameworks:  </h2>Rails, React, Redux;
-            <h2>Database Management Software: </h2>SQL, PostgreSQL, SQLite, Active Record, Sinatra, RESTful API; 
-            <h2>Tools: </h2>Git, Heroku, Node, Adobe Creative Cloud, Zendesk
+            <h2>Skills</h2>
+            <h3>Programming Languages: </h3>Javascript, ES6, Ruby, HTML, CSS; 
+            <h3>Frameworks:  </h3>Rails, React, Redux;
+            <h3>Database Management Software: </h3>SQL, PostgreSQL, SQLite, Active Record, Sinatra, RESTful API; 
+            <h3>Tools: </h3>Git, Heroku, Node, Adobe Creative Cloud, Zendesk
 
             </div>
             
             <div className="resumeCard">
-                <h1>Experience</h1>
-                    <h2>A1 Allied Health Training Institute</h2>
+                <h2>Experience</h2>
+                    <h3>A1 Allied Health Training Institute</h3>
                     Camden, NJ
                     <br/>2020 - Present
-                    <h3>Technical Support Specialist, Office Assistant</h3>
+                    <h4>Technical Support Specialist, Office Assistant</h4>
                     <ul>
                         <li>Trained faculty, staff, and students on existing and newly implemented software.</li>  
                         <li>Performed troubleshooting over the phone, email, video chat, and in person to identify and resolve issues.</li>
@@ -32,10 +32,10 @@ const Resume = () => {
                     </ul>
                     
 
-                    <h2>Universal Living Faith Network</h2>
+                    <h3>Universal Living Faith Network</h3>
                     Brooklyn, NY
                     <br/>2019 - 2020
-                    <h3>Production Assistant, Video Editor</h3>
+                    <h4>Production Assistant, Video Editor</h4>
                     <ul>
                                 <li>Developed storyboards and scripts for two live programs that aired daily.</li>
                     <li>Created multiple 60 second segments that were aired on BET. </li>
@@ -47,21 +47,21 @@ const Resume = () => {
             </div>
 
             <div className="resumeCard">
-                <h1>Education</h1>
-                <h2>Flatiron School</h2>
+                <h2>Education</h2>
+                <h3>Flatiron School</h3>
                 New York, NY
                 <br/>01/2021 - 06/2021
                 <br/>
                     Full Stack Web Development, Ruby on Rails and JavaScript program 	
 
-                    <h2>Relevant Coursework:</h2>  
+                    <h3>Relevant Coursework:</h3>  
                     <b>Introduction to Multimedia: </b>Built interactive websites using HTML and CSS 
                     at <b>The City University of New York</b>.
 
             </div>
 
             <div className="resumeCard">
-                <h1><Link className = "navLink"  to="/projects"> Click Here for Projects</Link></h1>
+                <h2><Link className = "navLink"  to="/projects"> Click Here for Projects</Link></h2>
             </div>
 
         </div>
