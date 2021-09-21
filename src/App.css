@@ -160,7 +160,20 @@
   
 }
 
-
+.mainTitle{
+  z-index: 2; 
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2p; 
+  font-size: 5em;
+  color: #61dafb;
+  margin-top: -4%;
+  
+}
+.mainTitle:hover{
+  color: rgb(0, 185, 252);
+}
 .projects{
   margin: 5%;
   
