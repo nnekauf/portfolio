@@ -80,13 +80,14 @@
 }
 .about{
   display: flexbox;
+  
 }
 
 
 .aboutText{
   border-radius: 5%;
   line-height: 30px;
-  /* font-size: 1.5em; */
+  
   z-index: 2;
   padding: 2%;
   
@@ -94,27 +95,22 @@
   text-transform: uppercase;
   left: 45%;
   background-color: #eeeeee;
-  max-width: 50%;
-  max-height: auto;
+  max-width: 45%;
+  
   text-align: left;
 }
-  /* font-weight: lighter; */
-  /* font-family: OpenSans; */
-  /* <div id= aboutText 
+
+.aboutText div {
+  margin: 5%;
   
 }
 
-/* .face:hover {
-  filter:blur(10%)
-} */
 .aboutText:hover{
   background-color: #00009f;
   color: white;
 
   
 }
-/* <div id="aboutName" style={{zIndex: "2", position: "relative", 
-  textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */
 
 
 .faceOverlay{
