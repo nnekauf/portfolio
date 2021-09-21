@@ -174,7 +174,7 @@
   
 }
 .mainTitle:hover{
-  color: rgb(0, 185, 252);
+  color: #00009f;
 }
 .projects{
   margin: 5%;
@@ -183,11 +183,16 @@
 }
 .projectsVideo{
   max-width: 45%;
+  max-height: 45%;
   left: 0%;
+  border-style: solid;
+  padding-left: 6%;
+  padding-right: 6%;
+  
 }
 .projectsVideo:hover{
   background-color: #00009f;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   padding: 6%;
   width: 1920px;
   height:auto;
@@ -199,17 +204,19 @@
   max-width: 45%;
   right: 5%;
   padding-top:4%;
-  padding-bottom: 4%;
+  padding-bottom: 7%;
   font-family: OpenSans;
   text-transform: uppercase;
   background-color: #eeeeee;
-  border-radius: 10%;
+  border-style: outset;
+  border-color: #00009f;
+  /* border-radius: 10%; */
   /* color: rgb(0, 185, 252); */
   font-size: 1.1em;
 }
 .projectText:hover{
   background-color: #00009f;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   /* padding-bottom: 6%; */
   color: white
 }
