@@ -56,12 +56,12 @@ const AboutMe = () => {
                     that you can explore!
                     
                     You can always find me <Link className="aboutLink"  to="/contact">here</Link>!
-                    <br/> <br/>
-                    <br/> <br/>
+                    {/* <br/> <br/>
+                    <br/> <br/> */}
                 </div>
             </div>
                 
-        
+        <br/>
 
         </div>
 

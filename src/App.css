@@ -9,9 +9,18 @@
   url(./fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
   font-weight: regular;
 }
+:root {
+  background-color:rgb(171, 171, 171) ;
+}
 .App {
   /* text-align: center; */
   font-size: 100%; /*16px = 100% */
+  /* background-color: rgb(171, 171, 171); */
+  /* width: 100%;
+  height: 100%;
+  overflow: hidden;
+   */
+  /* position: relative; */
 }
 
 .App-logo {
@@ -37,8 +46,8 @@
 } */
 
 .NavBar {
-  background-color: whitesmoke;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 5%;
   position: sticky;
@@ -49,23 +58,27 @@
   text-align: center;
   margin-bottom: 2%;
   text-transform: uppercase;
+  border-style: outset;
+  border-width: thin;
+  
 }
 .NavBar #nameTitle{
-  color: rgb(0, 185, 252)
+  color: #00009f
 }
 .navLink{
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   letter-spacing: 2px;
 }
-.NavBar:hover{
-  background-color: rgb(154, 228, 255);
-}
+/* .NavBar:hover{
+  background-color: rgb(0, 185, 252);
+  
+} */
 .navLink:hover {
   text-decoration-line: underline;
-  color:white;
+  color:#00009f;
   font-weight: bold;
-  
+  font-size: 1.5em;
 }
 #construction{
   max-width: 50%;
@@ -73,39 +86,37 @@
 }
 .about{
   display: flexbox;
+  
 }
 
 
 .aboutText{
   border-radius: 5%;
   line-height: 30px;
-  /* font-size: 1.5em; */
+  
   z-index: 2;
   padding: 2%;
+  
   position: relative;
   text-transform: uppercase;
   left: 45%;
   background-color: #eeeeee;
-  max-width: 50%;
-  max-height: auto;
+  max-width: 45%;
+  
   text-align: left;
 }
-  /* font-weight: lighter; */
-  /* font-family: OpenSans; */
-  /* <div id= aboutText 
+
+.aboutText div {
+  margin: 5%;
   
 }
 
-/* .face:hover {
-  filter:blur(10%)
-} */
 .aboutText:hover{
-  background-color: rgb(0, 185, 252);
+  background-color: #00009f;
   color: white;
+
   
 }
-/* <div id="aboutName" style={{zIndex: "2", position: "relative", 
-  textAlign: "center", fontFamily: "Bangers", letterSpacing: "2px", fontSize: "4em" }}>  */
 
 
 .faceOverlay{
@@ -124,13 +135,13 @@
    */
 }
 
-.faceOverlay:hover{
+/* .faceOverlay:hover{ */
   
-  opacity: 20%;
+  /* opacity: 20%; */
   /* padding-right: 10%, */
   /* object-fit: cover;
    */
-}
+/* } */
 .aboutName{
   z-index: 2; 
   position: relative;
@@ -138,69 +149,93 @@
   font-family: Bangers;
   letter-spacing: 2p; 
   font-size: 5em;
-  color: #61dafb;
+  color: #000000;
   
 }
 .aboutName:hover{
-  color: rgb(0, 185, 252);
+  color: #00009f;
 }
 
 .aboutLink{
-  text-decoration: none;
-  color:rgb(0, 0, 0);
-  
+  /* text-decoration:rgb(0, 0, 0); */
+  color:rgb(128, 128, 128);
   font-weight: bold;
 }
 .aboutLink:hover{
   
   color:rgb(255, 255, 255);
   
+  
 }
 
-
+.mainTitle{
+  z-index: 2; 
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2px; 
+  font-size: 5em;
+  color: #000000;
+  margin-top: -4%;
+  
+}
+.mainTitle:hover{
+  color: #00009f;
+}
 .projects{
   margin: 5%;
   
 }
 .projectsVideo{
   max-width: 45%;
-  left: 0%;
+  /* max-height: 45%; */
+  
+  border-style: solid;
+  padding-left: 6%;
+  padding-right: 6%;
+  
 }
 .projectsVideo:hover{
-  background-color: rgb(154, 228, 255);
-  border-radius: 10%;
+  background-color: #00009f;
+  /* border-radius: 10%; */
   padding: 6%;
   width: 1920px;
   height:auto;
+  z-index: 2;
  
 }
 .projectText{
-  position: absolute;
-  max-width: 45%;
-  right: 5%;
-  padding-top:6%;
+  position: relative;
+  max-width: 44%;
+  padding-left: 6%;
+  padding-right: 6%;
+  
   font-family: OpenSans;
   text-transform: uppercase;
-  color: rgb(0, 185, 252);
+  background-color: #eeeeee;
+  border-style: outset;
+  border-color: #00009f;
+  /* border-radius: 10%; */
+  /* color: rgb(0, 185, 252); */
   font-size: 1.1em;
 }
 .projectText:hover{
-  background-color: rgb(0, 185, 252);
-  border-radius: 10%;
-  padding-bottom: 6%;
+  background-color: #00009f;
+  /* border-radius: 10%; */
+  /* padding-bottom: 6%; */
   color: white
 }
 .projects h1{
   font-family: Bangers;
   font-size: 5em;
   text-align: center;
-  color: #61dafb;
+  /* color: #61dafb; */
   padding-bottom: 0;
 }
 
-.projects h1:hover{
+/* .projects h1:hover{
   color:rgb(0, 185, 252)
-}
+} */
 .projectText h2{
   font-family: Bangers;
   font-size: 3em;
@@ -217,7 +252,7 @@
 }
 
 .resume{
-  background-color: rgb(0, 185, 252);
+  /* background-color: rgb(0, 185, 252); */
   display: flexbox;
   width: 100%;
   height: 100%;
@@ -228,9 +263,11 @@
   background-color: white;
   margin: 0 auto;
   max-width: 40%;
+  /* padding-top: 2%; */
   padding-bottom: 2%;
-  padding-right: 10%;
-  padding-left:10%;
+  padding-right: 7%;
+  padding-left:7%;
+  
   /* 
   
   padding-top: 2%;
@@ -240,43 +277,46 @@
   text-transform: uppercase;
 }
 
-.resumeCard h1{
+.resumeCard h2{
   padding-top: 5%;
   text-align: center;
   font-family: Bangers;
   letter-spacing: 2px;
   font-size: 3em;
-  color: rgb(0, 185, 252)
+  color: #00009f
 }
-.resumeCard h2{
+.resumeCard h3{
   color: black
 }
-.resume #title{
-  font-family: Bangers;
-  letter-spacing: 2px; 
-  font-size: 5em;
-  text-align: center;
-  font-weight: bold;
-  top: 0%;
+.resume h1{
   position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 4px; 
+  font-size: 5em;
+  margin-top: -4%;
+
+}
+.resume h1:hover {
+  color: #00009f;
 }
 .resumeCard:hover{
   font-weight: bold;
-  color: rgb(0, 185, 252)
+  color: #00009f
 }
 
 .resumeCard:hover a{
-  color:rgb(0, 185, 252)
+  color:#00009f
 }
 
 
 
 .contact{
-  background-color: rgb(0, 185, 252);
+  max-width: 50%;
   margin: 0 auto;
-  width: 50%;
-  height: 100px;  
-  padding: 10%;
+  
+    
+  
   padding-bottom: 20%;
   font-family: OpenSans;
   text-transform: uppercase;
@@ -284,11 +324,25 @@
   font-size: 2em;
 }
 
-.contact h1{
-  font-family: Bangers;
-  letter-spacing: 2px;
+.contact div{
+  border-style: outset;
+  padding: 10%;
+  border-width: thick;
+  border-color: #00009f;
 }
-.contact:hover{
+.contact h1{
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2px; 
+  font-size: 3em;
+  color: #000000;
+  margin-top: -2%;
+}
+.contact h1:hover{
+  color: #00009f;
+}
+.contact div:hover{
   color: white;
 }
 .App-link {

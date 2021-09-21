@@ -6,8 +6,8 @@ const Contact = () => {
     return (
         <div className = "contact">
         
-            <h1>Email:</h1>
-            <h2>nneka.tech@gmail.com </h2>
+            <h1>Contact</h1>
+            <div><b>Email: </b>nneka.tech@gmail.com </div>
 
         
             
