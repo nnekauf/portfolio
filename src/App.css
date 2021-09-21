@@ -310,11 +310,11 @@
 
 
 .contact{
-  background-color: rgb(0, 185, 252);
+  max-width: 50%;
   margin: 0 auto;
-  width: 50%;
-  height: 100px;  
-  padding: 10%;
+  
+    
+  
   padding-bottom: 20%;
   font-family: OpenSans;
   text-transform: uppercase;
@@ -322,11 +322,25 @@
   font-size: 2em;
 }
 
-.contact h1{
-  font-family: Bangers;
-  letter-spacing: 2px;
+.contact div{
+  border-style: outset;
+  padding: 10%;
+  border-width: thick;
+  border-color: #00009f;
 }
-.contact:hover{
+.contact h1{
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  letter-spacing: 2px; 
+  font-size: 3em;
+  color: #000000;
+  margin-top: -2%;
+}
+.contact h1:hover{
+  color: #00009f;
+}
+.contact div:hover{
   color: white;
 }
 .App-link {
